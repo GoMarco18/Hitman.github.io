@@ -1,0 +1,67 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #fff; /* Set default font color to white */
+}
+
+header {
+	background-color: #2f2f2f; /* Darker gray background */
+	padding: 20px;
+	text-align: center;
+}
+
+.hero {
+	background-image: url('black.jpg');
+	background-size: cover;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff; /* Set font color to white */
+}
+
+.team-details {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #fff; /* Set font color to white */
+}
+
+.team-details > div {
+	margin: 20px;
+	background-color: #333; /* Add background color to team details */
+	padding: 10px;
+	border-radius: 10px; /* Add rounded corners */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+.match-schedule {
+	background-color: #444; /* Darker gray background */
+	padding: 20px;
+	color: #fff; /* Set font color to white */
+}
+
+.match-schedule table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.match-schedule th, .match-schedule td {
+	border: 1px solid #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.ticket-info {
+	background-color: #2f2f2f; /* Darker gray background */
+	padding: 20px;
+	color: #fff; /* Set font color to white */
+}
+
+footer {
+	background-color: #2f2f2f; /* Darker gray background */
+	padding: 10px;
+	text-align: center;
+	color: #fff; /* Set font color to white */
+}
